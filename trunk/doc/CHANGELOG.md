@@ -146,6 +146,7 @@ The changelog for SRS.
 <a name="v6-changes"></a>
 
 ## SRS 6.0 Changelog
+* v6.0, 2025-12-03, Merge [#4588](https://github.com/ossrs/srs/pull/4588): RTMP: Ignore FMLE start packet after flash publish. v6.0.184 (#4588)
 * v6.0, 2025-10-17, Merge [#4534](https://github.com/ossrs/srs/pull/4534): HLS: Fix a iterator bug in hls_ctx cleanup function. v6.0.182 (#4534)
 * v6.0, 2025-10-14, Disable sanitizer by default to fix memory leak. (#4364) v6.0.181
 * v6.0, 2025-10-01, SRT: Support configurable default_streamid option. v6.0.180 (#4515)
