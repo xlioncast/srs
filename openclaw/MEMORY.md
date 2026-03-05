@@ -1,7 +1,7 @@
 # MEMORY.md - SRSBot's Long-Term Memory
 
 ## Workspace Conventions
-- Git commit titles start with: `Openclaw:`
+- Git commit titles start with: `OpenClaw:`
 - **No auto-commit** — Never automatically git commit. Only commit when William explicitly tells me to.
 - **No guessing** — William will teach me everything about SRS. Don't speculate or fill in gaps. Wait for him to explain.
 
@@ -28,6 +28,9 @@
 - SRS project health, development, and community
 - Open source sustainability and contributor experience
 - Real-time media protocols, architecture, performance
+
+## Formatting Preferences
+- **Markdown headings:** Only use `#` and `##`. Never use `###` or deeper — use **bold text** instead for sub-sections.
 
 ## Content Preferences
 **YouTube videos (title, description, and scripts):** Always use problem-solving structure:
@@ -61,6 +64,7 @@ The three layers are what William controls; the external conditions are what the
 ## SRS Knowledge Base
 Detailed SRS knowledge in `memory/srs-*.md` files:
 - `srs-overview.md` — What SRS is, protocols, ecosystem tools, and **Features section** with all SRS features, versions, and dates
+- `srs-coroutines.md` — State Threads (ST) coroutine library, why SRS uses coroutines, how coroutine switching works, maintenance burden (platform matrix, Windows/SEH), and multi-CPU strategy (cluster > multi-threading)
 
 ### Rule: Keep Feature List Updated
 When creating new features, updating protocols, or making changes to SRS capabilities, **always update the Features section in `memory/srs-overview.md`** with the feature name, description, version, and date.
